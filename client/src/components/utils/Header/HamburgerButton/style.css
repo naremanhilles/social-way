@@ -1,0 +1,25 @@
+.hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hamburger-container--bar {
+    width: 35px;
+    height: 5px;
+    background-color: #231f20;
+    margin: 5px 0;
+    transition: 0.4s;
+    border-radius: 3px;
+}
+
+.hamburger-container-change .hamburger-container--bar1 {
+    transform: rotate(-45deg) translate(-5.5px, 6px);
+}
+
+.hamburger-container-change .hamburger-container--bar2 {
+    opacity: 0;
+}
+
+.hamburger-container-change .hamburger-container--bar3 {
+    transform: rotate(45deg) translate(-8px, -9px);
+}

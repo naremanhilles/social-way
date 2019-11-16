@@ -1,0 +1,37 @@
+.create-profile-form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.create-profile-form--item {
+  width: 100%;
+}
+
+.form--btn-cancel {
+  margin-bottom: 10px;
+}
+
+.form--btn-save {
+  width: 90vw;
+}
+
+.btn.form--btn-cancel {
+  background-color: #505050;
+  border: #505050;
+  margin-top: 10px;
+  width: 90vw;
+}
+
+.ant-col-sm-offset-8 {
+  margin: 0;
+}
+
+.ant-input,
+.ant-select-selection--single {
+  background-color: #fafafa;
+}
+
+.has-success.has-feedback .ant-form-item-children-icon,
+.has-error.has-feedback .ant-form-item-children-icon {
+  top: 20px;
+}

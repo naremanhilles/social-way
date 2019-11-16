@@ -1,0 +1,15 @@
+.error {
+  color: #e74c3c;
+}
+
+.ant-upload, .ant-btn {
+  width: 100%;
+}
+
+.ant-input-number-input, .ant-btn {
+  background: #fafafa;
+}
+
+.ant-select-selection, .ant-input {
+  background-color: #fafafa;
+}

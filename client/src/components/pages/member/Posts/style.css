@@ -1,0 +1,46 @@
+.posts-page-main {
+  padding-top: 30px;
+  width: 90%;
+  margin: 0 auto;
+  height: calc(100vh - (184px + 70px));
+}
+
+.posts--post-types {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts--plus-icon {
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 27px;
+}
+
+.posts--button {
+  margin-bottom: 30px;
+  transition: background-color 1s ease;
+  width: 50%;
+}
+
+.posts--button:hover {
+  background-color: rgba(214, 80, 80, .9);
+}
+
+@media screen and (min-width:600px) {
+  .posts-page-main {
+    width: 60%;
+  }
+  .posts--button {
+    width: 20%;
+    padding: 8px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .posts--plus-icon {
+    font-size: 17px;
+  }
+  .posts--icon {
+    padding-right: 10px;
+  }
+}

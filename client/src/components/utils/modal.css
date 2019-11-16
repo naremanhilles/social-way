@@ -1,0 +1,30 @@
+.ant-modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile--password-input {
+  border-radius: 3px;
+  border: #9E9E9E 1px solid;
+  padding: 3px 5px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.profile--password-popup .ant-btn {
+  width: 100%;
+  margin: 0;
+  background: #333;
+  color: #ffffff;
+}
+
+.ant-modal-footer {
+  border-top: none;
+}
+
+.profile--password-popup .ant-btn-primary {
+  background: var(--primary-color, #d65050);
+  margin-top: 15px;
+  border: none;
+}

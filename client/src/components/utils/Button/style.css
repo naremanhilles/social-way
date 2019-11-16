@@ -1,0 +1,14 @@
+.btn {
+    cursor: pointer;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color, #d65050);
+    border: 1px solid var(--primary-color, #d65050);
+    border-radius: 3px;
+    box-shadow: 2px 5px 5px -1px #afafaf;
+    color: #fff;
+    font-size: 20px;
+}

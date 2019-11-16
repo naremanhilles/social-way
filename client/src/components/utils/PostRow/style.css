@@ -1,0 +1,62 @@
+.post-row-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: .5px solid rgba(73, 73, 73, .5);
+  height: 65px;
+  margin-bottom: 35px;
+  background: #FAFAFA;
+  border-radius: 3px;
+}
+
+.post-row-container--title {
+  font-size: 20px;
+  padding: 10px;
+  color: #727272;
+  margin-bottom: 0;
+}
+
+.post-row-container a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.post-row-container--title:hover {
+  color: rgba(218, 80, 80, .8);
+}
+
+.post-row-container--icons {
+  display: flex;
+}
+
+.post-row-container--icon {
+  padding: 10px;
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.post-row-container--delete {
+  color: rgba(255, 0, 0, .7)
+}
+
+.post-row-container--delete:hover {
+  color: rgba(255, 0, 0, 1)
+}
+
+.post-row-container--edit {
+  color: rgba(73, 73, 73, .8)
+}
+
+.post-row-container--edit:hover {
+  color: rgba(73, 73, 73, 1)
+}
+
+.ant-popover-buttons {
+  display: flex;
+}
+
+.ant-popover-buttons .ant-btn-primary {
+  background: #f36f18;
+  border: none;
+}

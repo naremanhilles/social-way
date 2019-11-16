@@ -1,0 +1,20 @@
+.tagsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+
+.tagContainerText {
+  font-family: 'lato'
+}
+
+.newTagButton {
+  background: "#fff";
+  border-style: dashed;
+}
+
+.newTagButton:hover {
+  border: 1.4px solid #d9d9d9;
+  cursor: pointer;
+}

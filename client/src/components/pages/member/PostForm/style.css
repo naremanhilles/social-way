@@ -1,0 +1,19 @@
+.create-post-page-main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn.main--form-btn {
+  border: none;
+  margin-top: 10px;
+}
+
+.btn.main--form-btn-gradient {
+  background: linear-gradient(262.44deg, rgba(51, 51, 51, 0.8) 0%, #D65050 100%);
+}
+
+.btn.main--form-btn-black {
+  background: #505050;
+}

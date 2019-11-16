@@ -1,0 +1,21 @@
+.ant-btn-primary {
+    background: #1890ff;
+}
+
+.admin-page__link {
+    color: #1890ff;
+}
+
+.admin-page__link:hover {
+    text-decoration: underline
+}
+
+.ant-btn-sucess {
+    color: rgb(0, 179, 0);
+}
+
+.ant-btn-sucess:hover, .ant-btn-sucess:focus {
+    color: #fff;
+    border-color: rgb(0, 179, 0);
+    background: rgb(0, 179, 0);
+}

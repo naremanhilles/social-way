@@ -1,0 +1,33 @@
+.home {
+  padding: 30px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.home--desc {
+  font-size: 18px;
+  text-align: center;
+}
+
+.home--register {
+  padding: 16px;
+  margin-top: 50px;
+}
+
+.home--button {
+  margin-bottom: 26px;
+  transition: background-color 2s ease;
+  outline: none;
+}
+
+.home--button:hover {
+  background-color: rgba(214, 80, 80, 0.9);
+}
+
+@media (min-width:550px) {
+  .home {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
